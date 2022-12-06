@@ -20,7 +20,7 @@ public class TwoPontfirstduplicate {
     }
 
     public static void main(String[] args) {
-        int number[] = { 2, 1, 3, 6, 8, 3, 4 };
+        int number[] = { 2, 1, 5, 3, 3, 2, 4 };
         System.out.println(arrayDeplicate(number));
     }
 }
