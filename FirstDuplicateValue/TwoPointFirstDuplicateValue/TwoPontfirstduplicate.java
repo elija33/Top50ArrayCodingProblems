@@ -6,7 +6,7 @@ public class TwoPontfirstduplicate {
         int start = 0;
         int end = number.length - 1;
         while (start < end) {
-            System.out.println(start + " " + end);
+            // System.out.println(start + " " + end);
             if (number[start] == number[end]) {
                 return number[start];
             }
