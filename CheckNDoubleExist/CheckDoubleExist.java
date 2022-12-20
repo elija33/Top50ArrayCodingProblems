@@ -2,11 +2,10 @@ package CheckNDoubleExist;
 
 public class CheckDoubleExist {
     public static boolean checkDouble(int number[]) {
-        for (int i = 0; i < number.length - 1; i++) {
-            if (number[i] == number[i + 1] * number[i + 1 + 1]) {
+        for (int i = 0; i < number.length; i++)
+            if (number[i] == number[i + 1] * number[i + 1 + 1])
                 return true;
-            }
-        }
+
         return false;
     }
 
